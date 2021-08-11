@@ -1,0 +1,24 @@
+{
+  "template": "https://github.com/esnet/cookiecutter-zeekpackage.git",
+  "commit": "8ecf6cb7addd16501a9610063b4636ce4c636663",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "zeek-jetdirect",
+      "project_slug": "zeek-jetdirect",
+      "project_short_description": "Detect exploit attempt of HP JetDirect printers",
+      "project_credits": "dopheide@es.net, soehlert@es.net, jsdorn1@gmail.com",
+      "project_namespace": "ESnet",
+      "metadata_tags": "jetdirect, printer",
+      "github_username": "dopheide",
+      "copyright_owner": "LBNL",
+      "open_source_license": "BSD license",
+      "_copy_without_render": [
+        "docs/_templates/*.html",
+        ".github/workflows/*.yml"
+      ],
+      "_template": "https://github.com/esnet/cookiecutter-zeekpackage.git"
+    }
+  },
+  "directory": null
+}

@@ -1,0 +1,11 @@
+[package]
+description = Detect exploit attempt of HP JetDirect printers
+credits = dopheide@es.net, soehlert@es.net, jsdorn1@gmail.com
+tags = jetdirect, printer, cve-2017-2741
+
+test_command = cd tests && make
+
+script_dir = ./scripts
+
+depends =
+  zeek >=2.0.0
