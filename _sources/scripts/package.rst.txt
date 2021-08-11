@@ -1,0 +1,19 @@
+Zeek Package
+============
+
+For Zeek scripting details, such as options, functions and events, see the auto-generated documentation:
+
+
+
+:doc:`/scripts/__load__.zeek`
+
+   This is the entrypoint to loading the entire package.
+
+:doc:`/scripts/main.zeek`
+
+   Detect exploit attempt of HP JetDirect printers
+
+:doc:`/scripts/local/__load__.zeek`
+
+   Site-specific customizations go here
+

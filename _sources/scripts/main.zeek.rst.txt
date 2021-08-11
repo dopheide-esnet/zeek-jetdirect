@@ -1,0 +1,26 @@
+:tocdepth: 3
+
+main.zeek
+=========
+.. zeek:namespace:: JetDirect
+
+Detect exploit attempt of HP JetDirect printers
+
+:Namespace: JetDirect
+:Imports: :doc:`policy/frameworks/notice <scripts/policy/frameworks/notice/index>`
+
+Summary
+~~~~~~~
+Redefinitions
+#############
+=========================================================================================================================== =========================================
+:zeek:type:`Notice::Type`: :zeek:type:`enum`                                                                                
+                                                                                                                            
+                                                                                                                            * :zeek:enum:`JetDirect::Exploit_Attempt`
+:zeek:id:`signature_files`: :zeek:type:`string` :zeek:attr:`&add_func` = :zeek:see:`add_signature_file` :zeek:attr:`&redef` 
+=========================================================================================================================== =========================================
+
+
+Detailed Interface
+~~~~~~~~~~~~~~~~~~
+
