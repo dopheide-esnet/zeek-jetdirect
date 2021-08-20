@@ -2,7 +2,7 @@
 
 @load policy/frameworks/notice
 
-redef signature_files += "cve-2017-2741.sig";
+@load-sigs ./cve-2017-2741.sig
 
 module JetDirect;
 
